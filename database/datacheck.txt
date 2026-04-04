@@ -1,0 +1,11 @@
+php artisan tinker
+>>> App\Models\User::count()
+>>> exit
+
+php artisan tinker
+>>> DB::table('users')->get()
+>>> exit
+
+
+Run server:
+php artisan serve 
